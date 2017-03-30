@@ -9,7 +9,7 @@ h1 {
 }
 h2 {
   border: 1px solid black;
-  background-color: #A52A2A;
+  background-color: #efefef;
   width: 90%;
   height: 150px;
   margin-right: auto;
@@ -17,6 +17,9 @@ h2 {
   font-family: Helvetica;
   text-align: right;
   color: white;
+}
+p {
+
 }
 
 /********** Responsive Framework**********/
@@ -64,7 +67,8 @@ h2 {
 
 /********** Mobile only **********/
 @media (max-width: 767px) {
-  float: left;
+ .col-xs-1, .col-xs-2, .col-xs-3{
+  float: right;
     border: 1px Black;
   }
   .col-xs-1{
