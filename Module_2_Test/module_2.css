@@ -44,9 +44,9 @@ p{
 }
 
 .col1, .col2, .col3 {
-  background: lightgrey;  
+  background: #ebfafa;  
   margin: 5px 5px;
-  width: 32%;
+  width:32%;
 }
 
 #hone {
@@ -61,7 +61,6 @@ p{
   background-color: #008ae6;
   border: 1px solid black;
 }
-
 
 /********** Tablet only **********/
 @media  (min-width: 768px) and (max-width: 991px) {
