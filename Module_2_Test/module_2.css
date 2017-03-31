@@ -10,6 +10,7 @@ header {
 }
 h2{
   text-align: right;
+  color: white;
 }
 
 section {
@@ -43,22 +44,21 @@ section {
 }
 
 #hone {
-  background-color: white;
+  background-color: #6666ff;
   border: 1px solid black;
 }
 #htwo {
-  background-color: teal;
+  background-color: #009973;
   border: 1px solid black;
 }
 #hthree {
-  background-color: lightblue;
+  background-color: #008ae6;
   border: 1px solid black;
 }
-/********** Responsive Framework**********?
-/********** Desktop only **********/
-@media (min-width: 992px) {
-.col, .col2, .col3{
-  width: 33.3%;
+/********** Responsive Framework**********/
+@media  (min-width: 992px) {
+.col, .col2, .col3 {
+  width: 31%;
 }
 
 /********** Tablet only **********/
