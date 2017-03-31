@@ -25,6 +25,10 @@ section {
   overflow: hidden;
 }
 
+p{
+  padding: 35px 5px 5px 5px;
+  }
+
 .col {
   text-align: left;
   border: 1px solid black;
@@ -62,13 +66,16 @@ section {
 }
 /********** Responsive Framework**********/
 @media  (min-width: 992px) {
-.col, .col2, .col3 {
+.col, 
+.col2, 
+.col3 {
   width: 31%;
 }
 
 /********** Tablet only **********/
 @media  (min-width: 768px) (max-width: 991px) {
-  .col1, .col2{
+  .col1, 
+  .col2{
     width: 50%;
   }
   .col3{
