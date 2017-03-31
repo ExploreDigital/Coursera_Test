@@ -11,23 +11,22 @@ h1 {
 h2{
   text-align: right;
   margin-bottom: 5px
+  border: 1px solid black;
   font-size: 1.25em;
+  padding: 5px 5px;
 }
 #left {
-  position: relative;
-  border: 1px solid black;
+  width: 100px; 
   background-color: #ffe0cc;
   float: left;
 }
 #middle {
-  position: relative;
-  border: 1px solid black;
+  width: 100px; 
   background-color: #b3d9ff;
   float: left;
 }
 #right {
-  position: relative;
-  border: 1px solid black;
+  width: 100px; 
   background-color: #ffb3d9;
   float: left;
 }
@@ -43,7 +42,6 @@ p {
 /********** Responsive Framework**********/
 .row {
   width: 100%;
-  margin: 20px auto;
 }
 
 /********** Desktop only **********/
