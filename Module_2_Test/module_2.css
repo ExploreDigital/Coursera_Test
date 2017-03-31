@@ -34,7 +34,8 @@ p {
   }
 }
 #content {
-  background-color: #bbbbbb;
+  background-color: #90ee90;
+  border: 1px solid black;
 }
 
 /********** Responsive Framework**********/
