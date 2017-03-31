@@ -76,7 +76,8 @@ p{
 @media  (min-width: 768px) (max-width: 991px) {
   .col1, 
   .col2{
-    width: 50%;
+    width: 48%;
+    background-position: center;
   }
   .col3{
     width:100%;
