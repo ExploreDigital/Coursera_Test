@@ -12,7 +12,6 @@ header {
 }
 
 h2{
-  text-align: right;
   margin-bottom: 5px
   border: 1px solid black;
   font-size: 1.25em;
@@ -26,6 +25,7 @@ section {
 }
 
 .col {
+  text-align: right;
   width: 33.3%;
   height: 500%;
   float: left;
@@ -34,19 +34,29 @@ section {
   background: grey;  
 }
 
-/********** Responsive Framework**********/
-.row {
-  width: 100%;
-}
-
+/********** Responsive Framework**********?
 /********** Desktop only **********/
 @media (min-width: 992px) {
-
+.col, .col2, .col3{
+  width: 33.3%;
+}
 
 /********** Tablet only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .col1, .col2{
+    width: 50%;
+  }
+  .col3{
+    width:100%;
+  }
 
+}
 
 /********** Mobile only **********/
 @media (max-width: 767px) {
+.col{
+  width:100%;
+  float: none;
+}
+}
  
