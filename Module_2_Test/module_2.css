@@ -10,25 +10,16 @@ div {
 }
 h1 {
   text-align: center;
-  margin-bottom: 15px
+  margin-bottom: 25px
 }
-h2 {
-  border: 1px solid black;
-  background-color: #efefef;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  text-align: right;
-  color: white;
-  }
 p {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
-  margin-bottom: 15px;
+  text-align: right;
   position: relative;
+  background-color: green;
+  border: 1px solid black;
+  display: block;
+  width: 50px;
+  margin-bottom: 2px;
 }
 
   }
