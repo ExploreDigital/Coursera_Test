@@ -82,7 +82,7 @@ p{
     width: 48.25%;
   }
   .col3{
-    width:98%;
+    width: 98%;
   }
 
 }
@@ -90,8 +90,7 @@ p{
 /********** Mobile only **********/
 @media (max-width: 767px) {
 .col{
-  width:100%;
-  overflow: auto;
+  width: 100%;
   float: none;
 }
 }
