@@ -16,12 +16,10 @@ div {
 }
 p {
   text-align: right;
-  position: relative;
+  position: absolute;
   background-color: #efefef;
   border: 1px solid black;
-  display: block;
-  width: 50px;
-  margin-bottom: 2px;
+  display: inline-block;
 }
 
 /********** Responsive Framework**********/
