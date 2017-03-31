@@ -23,9 +23,20 @@ h2 {
   text-align: right;
   color: white;
 }
-p {
-
+#I1 {
+  background-color: #A52A2A;
+  position: relative;
+  top: 65px;
+  left: 65px;
 }
+#I2 {
+  background-color: #DEB887;
+}
+#I3 {
+  background-color: #5F9EA0;
+  position: absolute;
+  top: 0;
+  left: 0;
 
 /********** Responsive Framework**********/
 .row {
