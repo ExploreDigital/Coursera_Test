@@ -9,8 +9,13 @@ header {
   padding: 2em 0;
 }
 h2{
-  text-align: right;
+  text-align: center;
   color: white;
+  padding: 5px 5px;
+  width: 100px;
+  float: right;
+  position: relative;
+  margin: 0px auto;
 }
 
 section {
