@@ -35,7 +35,7 @@ p{
 .col {
   text-align: left;
   border: 1px solid black;
-  width: 33.3%;
+  width: 32%;
   height: 550%;
   padding: 5px 5px;
   float: left;
@@ -72,7 +72,7 @@ p{
 .col, 
 .col2, 
 .col3 {
-  width: 31%;
+  width: 32%;
 }
 
 /********** Tablet only **********/
