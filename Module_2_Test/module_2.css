@@ -3,11 +3,6 @@
 * {
   box-sizing: border-box;
 }
-div {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-}
 h1 {
   text-align: center;
   margin-bottom: 25px
@@ -22,8 +17,6 @@ p {
   margin-bottom: 2px;
 }
 
-  }
-}
 #content {
   background-color: #90ee90;
   border: 1px solid black;
