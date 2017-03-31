@@ -10,7 +10,7 @@ h1 {
 p {
   text-align: right;
   position: absolute;
-  background-color: green;
+  background-color: #efefef;
   border: 1px solid black;
   display: block;
   width: 50px;
@@ -25,11 +25,12 @@ p {
 /********** Desktop only **********/
 @media (min-width: 992px) {
 .col-lg-1, .col-lg-2, .col-lg-3 {
-   float: left;
-    width: 150px;
-    height: 75px;
+    float: center;
+    display: inline-block;
+    width: 300px;
+    height: 175px;
     margin: 10px;
-    border: 3px solid #73AD21; 
+    border: 3px solid #black; 
   }
   .col-lg-1{
     width: 33.3%;
