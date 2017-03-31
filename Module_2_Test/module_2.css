@@ -9,17 +9,12 @@ h1 {
 }
 p {
   text-align: right;
-  position: relative;
+  position: absolute;
   background-color: green;
   border: 1px solid black;
   display: block;
   width: 50px;
   margin-bottom: 2px;
-}
-
-#content {
-  background-color: #90ee90;
-  border: 1px solid black;
 }
 
 /********** Responsive Framework**********/
@@ -30,8 +25,11 @@ p {
 /********** Desktop only **********/
 @media (min-width: 992px) {
 .col-lg-1, .col-lg-2, .col-lg-3 {
-    float: left;
-    border: 1px Black;
+   float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21; 
   }
   .col-lg-1{
     width: 33.3%;
