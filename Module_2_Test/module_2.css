@@ -14,14 +14,6 @@ div {
   padding: 25px;
   margin: 25px;
 }
-p {
-  text-align: right;
-  position: absolute;
-  background-color: #efefef;
-  border: 1px solid black;
-  display: inline-block;
-}
-
 /********** Responsive Framework**********/
 .row {
   width: 100%;
