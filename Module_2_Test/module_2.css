@@ -18,6 +18,8 @@ h2{
   width: 100px;
   float: right;
   position: relative;
+  right: -5px;
+  top: -5px;
   margin: -1px -1px auto;
 }
 
@@ -31,28 +33,20 @@ section {
 p{
   padding: 35px 5px 5px 5px;
   }
-
+/********Column Styling*****/
 .col {
   text-align: left;
   border: 1px solid black;
-  width: 32%;
+  width: 33.3%;
   height: 550%;
   padding: 5px 5px;
   float: left;
 }
 
-.col1{
-  margin: 5px 5px;
-}
-.col2{
-  margin: 5px 5px;
-}
-.col3{
-  margin: 5px 5px;
-}
-
 .col1, .col2, .col3 {
   background: lightgrey;  
+  margin: 5px 5px;
+  width: 32%;
 }
 
 #hone {
@@ -67,13 +61,7 @@ p{
   background-color: #008ae6;
   border: 1px solid black;
 }
-/********** Responsive Framework**********/
-@media  (min-width: 992px) {
-.col, 
-.col2, 
-.col3 {
-  width: 32%;
-}
+
 
 /********** Tablet only **********/
 @media  (min-width: 768px) and (max-width: 991px) {
