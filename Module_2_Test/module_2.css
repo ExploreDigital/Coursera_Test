@@ -1,37 +1,26 @@
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
 header {
   background: white;
-  color: #FBFBFB;
+  color: black;
   font-family: Arial, serif;
   text-align: center;
   padding: 2em 0;
 }
-
-h2{
-  margin-bottom: 5px
-  border: 1px solid black;
-  font-size: 1.25em;
-  padding: 5px 5px;
-}
-
 section {
   width: 94.75%;
   margin:0 auto;
+  padding: 5px 5px;
   overflow: hidden;
 }
 
 .col {
   text-align: right;
+  border: 1px solid black;
   width: 33.3%;
   height: 500%;
   float: left;
 }
 .col1, .col2, .col3 {
-  background: grey;  
+  background: lightgrey;  
 }
 
 /********** Responsive Framework**********?
