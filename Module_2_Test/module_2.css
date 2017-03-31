@@ -1,15 +1,18 @@
 *{
   box-sizing: border-box;
+  position: center;
 }
 
 header {
   color: black;
   font-family: Arial, serif;
+  font-size: 1.5em;
   text-align: center;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 h2{
   text-align: center;
+  font size: 1.5em;
   color: white;
   padding: 5px 5px;
   width: 100px;
@@ -33,7 +36,7 @@ p{
   text-align: left;
   border: 1px solid black;
   width: 33.3%;
-  height: 500%;
+  height: 550%;
   padding: 5px 5px;
   float: left;
 }
@@ -73,14 +76,13 @@ p{
 }
 
 /********** Tablet only **********/
-@media  (min-width: 768px) (max-width: 991px) {
+@media  (min-width: 768px) and (max-width: 991px) {
   .col1, 
   .col2{
-    width: 48%;
-    background-position: center;
+    width: 48.25%;
   }
   .col3{
-    width:100%;
+    width:98%;
   }
 
 }
@@ -89,6 +91,7 @@ p{
 @media (max-width: 767px) {
 .col{
   width:100%;
+  overflow: auto;
   float: none;
 }
 }
