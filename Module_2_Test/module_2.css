@@ -13,7 +13,6 @@ header {
 h2{
   text-align: center;
   font size: 1.5em;
-  color: white;
   padding: 5px 5px;
   width: 100px;
   float: right;
@@ -44,21 +43,22 @@ p{
 }
 
 .col1, .col2, .col3 {
-  background: #ebfafa;  
+  background: #f2f2f2;  
   margin: 5px 5px;
   width:32%;
 }
 
 #hone {
-  background-color: #008080;
+  background-color:  #aa80ff;
   border: 1px solid black;
 }
 #htwo {
-  background-color: #5c8a8a;
+  background-color: #00b386;
+  color: white;
   border: 1px solid black;
 }
 #hthree {
-  background-color: #00b386;
+  background-color: #66e0ff;
   border: 1px solid black;
 }
 
