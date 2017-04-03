@@ -28,5 +28,35 @@ h2 {
     margin: 20px 30px;
     background-color: lightblue;
     height: 2500px;
+    border: 1px solid black;
     }
     
+ /****** Responsive settings *****/
+ 	/** Large devices**/
+ @media (min-width: 992px) and (max-width: 1199px) {
+ 	.jumbotron {
+    margin: 20px 30px;
+    background-color: lightblue;
+    height: 2500px;
+    border: 1px solid black;
+ }
+	/** Tablet devices**/
+ @media (min-width: 768px) and (max-width: 991px) {
+ 	.jumbotron {
+    margin: 20px 30px;
+    background-color: lightblue;
+    height: 2000px;
+    border: 1px solid black;
+ }
+	/** Mobile **/
+ @media (max-width: 767px){
+ 	.jumbotron {
+    margin: 20px 30px;
+    background-color: lightblue;
+    height: 2500px;
+    border: 1px solid black;
+ 	
+ }
+
+
+
