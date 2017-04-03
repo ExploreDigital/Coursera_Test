@@ -16,9 +16,9 @@
 
 /***** Section Styling  *****/
 .section-1 {
-     margin-top: 10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
 }
-
 .jumbotron {
     margin: 20px 30px;
     background-color: lightblue;
