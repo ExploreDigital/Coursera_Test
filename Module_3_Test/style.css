@@ -37,41 +37,30 @@ h2 {
 h3 {
 	padding: 10px;
 }
- .container {
-    margin: 20px 30px;
-    background-color: lightgrey;
-    height: 2500px;
-    border: 1px solid black;
- }
 
  
  /****** Responsive settings *****/
  	/** Large devices**/
  @media (min-width: 992px) and (max-width: 1199px) {
-  .container {
-    margin: 20px 30px;
-    background-color: lightgrey;
-    height: 2500px;
-    border: 1px solid black;
+  .row > div {
+	margin: 35px;
+	background-color: lightblue;
+	border: 1px solid black;
  }
 
 	/** Tablet devices**/
  @media (min-width: 768px) and (max-width: 991px) {
- 	.container {
-    margin: 20px 30px;
-    background-color: lightgrey;
-    height: 2000px;
-    border: 1px solid black;
- }
-
+ 	.row > div {
+	margin: 35px;
+	background-color: lightblue;
+	border: 1px solid black;
+}
 	/** Mobile **/
  @media (max-width: 767px){
- 	.container {
-    margin: 20px 30px;
-    background-color: lightgrey;
-    height: 2500px;
-    border: 1px solid black; 	
- }
-
+ 	.row > div {
+	margin: 35px;
+	background-color: lightblue;
+	border: 1px solid black;
+}
 
 
