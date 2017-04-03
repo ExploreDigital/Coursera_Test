@@ -24,7 +24,7 @@ h1 {
 h2 {
 	padding: 10px;
 }
-.jumbotron {
+.container, .jumbotron {
     margin: 20px 30px;
     background-color: lightblue;
     height: 2500px;
@@ -34,7 +34,7 @@ h2 {
  /****** Responsive settings *****/
  	/** Large devices**/
  @media (min-width: 992px) and (max-width: 1199px) {
- 	.jumbotron {
+ 	.container, .jumbotron {
     margin: 20px 30px;
     background-color: lightblue;
     height: 2500px;
@@ -42,7 +42,7 @@ h2 {
  }
 	/** Tablet devices**/
  @media (min-width: 768px) and (max-width: 991px) {
- 	.jumbotron {
+ 	.container, .jumbotron {
     margin: 20px 30px;
     background-color: lightblue;
     height: 2000px;
@@ -50,7 +50,7 @@ h2 {
  }
 	/** Mobile **/
  @media (max-width: 767px){
- 	.jumbotron {
+ 	.container, .jumbotron {
     margin: 20px 30px;
     background-color: lightblue;
     height: 2500px;
