@@ -1,0 +1,27 @@
+/**** Navbar styling***/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #4dd2ff;
+    z-index: 9999;
+    border: 1 solid black;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+.navbar li a, .navbar, .navbar-brand {
+    color: black !important;
+}
+
+/***** Section Styling  *****/
+.section-1 {
+     margin-top: 10px;
+}
+
+.jumbotron {
+    margin: 20px 30px;
+    background-color: lightblue;
+    height: 1000px;
+    }
+    
