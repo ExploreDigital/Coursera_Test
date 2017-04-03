@@ -2,13 +2,18 @@
 	box-sizing: border-box;
 }
 
+
+.row > div {
+	margin: 35px;
+	background-color: lightblue;
+	border: 1px solid black;
+}
 /**** Navbar styling***/
 
 .navbar {
     margin-bottom: 0;
     background-color: #4dd2ff;
     z-index: 9999;
-    border: 1 solid black;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
