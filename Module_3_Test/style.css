@@ -37,6 +37,10 @@ h2 {
 h3 {
 	padding: 10px;
 }
+.container, .text-center {
+	background-color: lightblue;
+
+}
 
  
  /****** Responsive settings *****/
