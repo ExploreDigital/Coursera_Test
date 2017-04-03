@@ -28,6 +28,12 @@ h2 {
 h3 {
 	padding: 10px;
 }
+ .jumbotron {
+    margin: 20px 30px;
+    background-color: lightgrey;
+    height: 2500px;
+    border: 1px solid black;
+ }
 
  
  /****** Responsive settings *****/
