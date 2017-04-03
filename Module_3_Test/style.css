@@ -30,7 +30,7 @@ h3 {
 }
  .jumbotron {
     margin: 20px 30px;
-    background-color: lightblue;
+    background-color: lightgrey;
     height: 2500px;
     border: 1px solid black;
     }
@@ -40,7 +40,7 @@ h3 {
  @media (min-width: 992px) and (max-width: 1199px) {
   .jumbotron {
     margin: 20px 30px;
-    background-color: lightblue;
+    background-color: lightgrey;
     height: 2500px;
     border: 1px solid black;
  }
@@ -48,7 +48,7 @@ h3 {
  @media (min-width: 768px) and (max-width: 991px) {
  	 .jumbotron {
     margin: 20px 30px;
-    background-color: lightblue;
+    background-color: lightgrey;
     height: 2000px;
     border: 1px solid black;
  }
@@ -56,7 +56,7 @@ h3 {
  @media (max-width: 767px){
  	.jumbotron {
     margin: 20px 30px;
-    background-color: lightblue;
+    background-color: lightgrey;
     height: 2500px;
     border: 1px solid black;
  	
