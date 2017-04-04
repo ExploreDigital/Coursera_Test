@@ -33,9 +33,9 @@ container {
   margin: 100px;
 }
 .col-xs-12 {
-  	background-color: lightblue;
+  	color:black;
+    background-color: #e6fffa!important;
     float: none;
-    margin: 0 auto;
     height: 1000px;
     border: 1px solid black;
   }
@@ -46,7 +46,6 @@ container {
  @media (min-width: 992px) and (max-width: 1199px) {
 .col-xs-12  {
     float: none;
-    margin: 0 auto;
   	background-color: lightblue;
   	border: 1px solid black;
  }
@@ -54,7 +53,6 @@ container {
  @media (min-width: 768px) and (max-width: 991px) {
  	.col-xs-12 {
   	float: none;
-    margin: 0 auto;
     background-color: lightblue;
   	border: 1px solid black;
 }
@@ -62,7 +60,6 @@ container {
  @media (max-width: 767px){
  .col-xs-12  {
   	float: none;
-    margin: 0 auto;
   	background-color: lightblue;
   	border: 1px solid black;
 }
